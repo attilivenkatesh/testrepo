@@ -9,6 +9,7 @@ buildscript {
 }
 
 apply plugin: 'java-library'
+apply plugin: 'maven-publish'
 apply plugin: 'io.github.robwin.jgitflow'
 
 group 'org.example'
