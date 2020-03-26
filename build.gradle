@@ -22,8 +22,6 @@ initJGitflow{
     feature = "features/"
     release = "release/"
     versiontag = 'v'
-    keepBranch = true
-
 }
 
 repositories {
