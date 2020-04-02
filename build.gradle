@@ -24,7 +24,7 @@ release{
     tagTemplate = 'v'+'${version}'
     versionPropertyFile = 'gradle.properties'
     git {
-        requireBranch = 'release/*.*|master|feature/*.*'
+        requireBranch = 'release/*.*|master|feature/*.*|develop'
     }
 
 
