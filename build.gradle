@@ -21,6 +21,7 @@ targetCompatibility = '11'
 
 
 release{
+    failOnUpdateNeeded = false
     tagTemplate = 'v'+'${version}'
     versionPropertyFile = 'gradle.properties'
     git {
