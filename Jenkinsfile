@@ -9,7 +9,7 @@ pipeline {
                 // get code from our Git repository
                 git url:'https://github.com/attilivenkatesh/testrepo.git',  branch: 'develop'
                 // get Gradle HOME value
-                def gradleHome = tool 'gradle5'
+                gradleHome = tool 'gradle5'
                  // run Gradle to execute compile and unit testing
                 sh "'${gradleHome}/bin/gradle' release -Prelease.useAutomaticVersion=true -Prelease.releaseVersion=1100.0.2 -Prelease.newVersion=1100.0.3-SNAPSHOT"
 
