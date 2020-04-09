@@ -7,7 +7,7 @@ pipeline {
                 echo 'Test1..'
 
                 // get code from our Git repository
-                git url:'https://github.com/attilivenkatesh/testrepo.git',  branch: 'develop', , credentialsId: '7b4950fd-1bd8-489f-b35a-98ddb0808fa8'
+                git url:'https://github.com/attilivenkatesh/testrepo.git',  branch: 'develop', credentialsId: '7b4950fd-1bd8-489f-b35a-98ddb0808fa8'
                 // get Gradle HOME value
                 
                  // run Gradle to execute compile and unit testing
