@@ -11,7 +11,7 @@ pipeline {
                 // get Gradle HOME value
                 
                  // run Gradle to execute compile and unit testing
-                sh "'gradle release -Prelease.useAutomaticVersion=true -Prelease.releaseVersion=1100.0.2 -Prelease.newVersion=1100.0.3-SNAPSHOT"
+                sh "gradle release -Prelease.useAutomaticVersion=true -Prelease.releaseVersion=1100.0.2 -Prelease.newVersion=1100.0.3-SNAPSHOT"
 
             }
         }
